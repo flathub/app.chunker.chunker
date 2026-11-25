@@ -48,8 +48,8 @@ modules:
         tag: 1.21.0
         commit: 50aaf6d82e8b68929279161b790d95fdddfe0a40
         x-checker-data:
-          - type: git
-            version-scheme: semantic
+          type: git
+          version-scheme: semantic
       - type: file
         path: chunker.sh
       - type: patch
